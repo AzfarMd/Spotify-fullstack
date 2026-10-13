@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+complete-backend/node_modules/
+frontend/node_modules/
+
+# Production builds
+dist/
+frontend/dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+complete-backend/.env
+complete-backend/.env.*
+!complete-backend/.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Archive files
+*.zip
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

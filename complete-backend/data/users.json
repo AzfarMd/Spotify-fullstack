@@ -1,0 +1,9 @@
+[
+  {
+    "_id": "usr_1791882546890",
+    "username": "testuser",
+    "email": "test@test.com",
+    "password": "$2b$10$hiaBf22BSMxUQ/SQACDqXuuelg9sBdEr3qFMjPIQCxjHk/ijfQl6W",
+    "role": "user"
+  }
+]
