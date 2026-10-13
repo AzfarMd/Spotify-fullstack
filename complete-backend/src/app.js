@@ -26,6 +26,14 @@ app.use(express.json());
 app.use(cookieParser());
 
 
+app.get('/', (req, res) => {
+    res.json({
+        status: 'online',
+        message: 'Spotify Backend API Server is running successfully!',
+        version: '1.0.0',
+    });
+});
+
 app.use('/api/auth', authRoutes);
 app.use('/api/music', musicRoutes);
 
