@@ -1,0 +1,10 @@
+{
+  "name": "spotify-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack Spotify clone application",
+  "main": "complete-backend/server.js",
+  "scripts": {
+    "build": "npm --prefix complete-backend install",
+    "start": "node complete-backend/server.js"
+  }
+}
